@@ -18,8 +18,7 @@
 module github.com/apache/arrow-adbc/go/adbc
 
 go 1.22.7
-
-toolchain go1.22.9
+toolchain go1.24.1
 
 require (
 	cloud.google.com/go/bigquery v1.66.2
@@ -37,7 +36,7 @@ require (
 	google.golang.org/api v0.220.0
 	google.golang.org/grpc v1.70.0
 	google.golang.org/protobuf v1.36.5
-	modernc.org/sqlite v1.34.5
+	modernc.org/sqlite v1.36.2
 )
 
 require (
@@ -111,7 +110,7 @@ require (
 	golang.org/x/crypto v0.33.0 // indirect
 	golang.org/x/mod v0.23.0 // indirect
 	golang.org/x/net v0.35.0 // indirect
-	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/term v0.29.0 // indirect
 	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.9.0 // indirect
@@ -120,9 +119,9 @@ require (
 	google.golang.org/genproto/googleapis/api v0.0.0-20250127172529-29210b9bc287 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250127172529-29210b9bc287 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	modernc.org/libc v1.55.3 // indirect
-	modernc.org/mathutil v1.6.0 // indirect
-	modernc.org/memory v1.8.0 // indirect
+	modernc.org/libc v1.61.13 // indirect
+	modernc.org/mathutil v1.7.1 // indirect
+	modernc.org/memory v1.8.2 // indirect
 )
 
 // XXX: https://github.com/googleapis/google-cloud-go/issues/11344
